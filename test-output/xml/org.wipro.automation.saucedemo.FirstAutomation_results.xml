@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="12.200">
+    <properties></properties>
+
+
+
+            <testcase
+                name="login_functionlaity_chrome"
+                time="5.514"
+                classname="org.wipro.automation.saucedemo.FirstAutomation">
+            </testcase>
+            <testcase
+                name="login_functionlaity_edge"
+                time="6.686"
+                classname="org.wipro.automation.saucedemo.FirstAutomation">
+            </testcase>
+</testsuite>

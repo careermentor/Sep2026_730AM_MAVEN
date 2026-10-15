@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.484">
+    <properties></properties>
+
+
+
+            <testcase
+                name="calendar_icon"
+                time="8.484"
+                classname="org.wipro.automation.saucedemo.CalendarDemo">
+            </testcase>
+</testsuite>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.007">
+    <properties></properties>
+
+
+
+            <testcase
+                name="fifth_testcase"
+                time="0.001"
+                classname="testngdemo.TestScenario6">
+            </testcase>
+            <testcase
+                name="forth_testcase"
+                time="0.001"
+                classname="testngdemo.TestScenario6">
+            </testcase>
+            <testcase
+                name="sixth_testcase"
+                time="0.001"
+                classname="testngdemo.TestScenario6">
+            </testcase>
+            <testcase
+                name="third_testcase"
+                time="0.001"
+                classname="testngdemo.TestScenario6">
+            </testcase>
+            <testcase
+                name="second_testcase"
+                time="0.002"
+                classname="testngdemo.TestScenario6">
+            </testcase>
+            <testcase
+                name="first_testcase"
+                time="0.001"
+                classname="testngdemo.TestScenario6">
+            </testcase>
+</testsuite>

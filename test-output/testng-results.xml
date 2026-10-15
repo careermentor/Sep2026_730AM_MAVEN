@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-15T07:51:35 IST" name="Default suite" finished-at="2026-10-15T07:51:45 IST" duration-ms="10247">
+    <groups>
+    </groups>
+    <test started-at="2026-10-15T07:51:35 IST" name="Default test" finished-at="2026-10-15T07:51:45 IST" duration-ms="10247">
+      <class name="org.xyz.automation.rediff.testcases.LoginScenario">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:org.xyz.automation.rediff.testcases.LoginScenario@367ffa75]" started-at="2026-10-15T07:51:35 IST" name="launchbrowser" finished-at="2026-10-15T07:51:42 IST" duration-ms="7443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="tc01_login_functionality_valid_credentils()[pri:0, instance:org.xyz.automation.rediff.testcases.LoginScenario@367ffa75]" started-at="2026-10-15T07:51:42 IST" name="tc01_login_functionality_valid_credentils" finished-at="2026-10-15T07:51:45 IST" duration-ms="2475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_login_functionality_valid_credentils -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.xyz.automation.rediff.testcases.LoginScenario@367ffa75]" started-at="2026-10-15T07:51:45 IST" name="teardown" finished-at="2026-10-15T07:51:45 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.xyz.automation.rediff.testcases.LoginScenario -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

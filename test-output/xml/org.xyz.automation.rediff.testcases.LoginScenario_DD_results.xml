@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.492">
+    <properties></properties>
+
+
+
+            <testcase
+                name="tc01_login_functionality_valid_credentils"
+                time="2.240"
+                classname="org.xyz.automation.rediff.testcases.LoginScenario_DD">
+            </testcase>
+            <testcase
+                name="tc01_login_functionality_valid_credentils"
+                time="0.399"
+                classname="org.xyz.automation.rediff.testcases.LoginScenario_DD">
+            </testcase>
+            <testcase
+                name="tc01_login_functionality_valid_credentils"
+                time="1.853"
+                classname="org.xyz.automation.rediff.testcases.LoginScenario_DD">
+            </testcase>
+</testsuite>

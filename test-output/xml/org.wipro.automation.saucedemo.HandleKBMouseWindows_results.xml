@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22.881">
+    <properties></properties>
+
+
+
+            <testcase
+                name="tc01_handleFrames"
+                time="15.691"
+                classname="org.wipro.automation.saucedemo.HandleKBMouseWindows">
+            </testcase>
+            <testcase
+                name="tc02_handleAlerts"
+                time="7.190"
+                classname="org.wipro.automation.saucedemo.HandleKBMouseWindows">
+            </testcase>
+</testsuite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="1.468">
+    <properties></properties>
+
+            <testcase
+                name="signup_functionlaity_chrome"
+                time="1.468"
+                classname="org.wipro.automation.saucedemo.SecondAutomation">
+
+            <failure type="org.openqa.selenium.ElementClickInterceptedException" message="element click intercepted: Element is not clickable at point (936, 537)
+  (Session info: chrome=154.0.8037.98)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [afe1395735b1ae896bc03456d0304f07, clickElement {id=f.426C1081148D18220234DE0638859DD6.d.6BBDDA8BF9A28CBAC59225A6ACAE7632.e.153}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.98, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\Santosh\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53733}, goog:processID: 28872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53733/devtoo..., se:cdpVersion: 154.0.8037.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (afe1395735b1ae896bc03456d0304f07)] -&gt; xpath: //a[text()=&apos;Get a new Rediffmail ID&apos;]]
+Session ID: afe1395735b1ae896bc03456d0304f07">
+                <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (936, 537)
+  (Session info: chrome=154.0.8037.98)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [afe1395735b1ae896bc03456d0304f07, clickElement {id=f.426C1081148D18220234DE0638859DD6.d.6BBDDA8BF9A28CBAC59225A6ACAE7632.e.153}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.98, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\Santosh\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53733}, goog:processID: 28872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53733/devtoo..., se:cdpVersion: 154.0.8037.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (afe1395735b1ae896bc03456d0304f07)] -> xpath: //a[text()='Get a new Rediffmail ID']]
+Session ID: afe1395735b1ae896bc03456d0304f07
+                org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:252)org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:667)org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)org.wipro.automation.saucedemo.SecondAutomation.signup_functionlaity_chrome(SecondAutomation.java:95)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)java.base/java.lang.reflect.Method.invoke(Method.java:580)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)java.base/java.util.ArrayList.forEach(ArrayList.java:1596)org.testng.TestRunner.privateRun(TestRunner.java:741)org.testng.TestRunner.run(TestRunner.java:616)org.testng.SuiteRunner.runTest(SuiteRunner.java:421)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)org.testng.SuiteRunner.run(SuiteRunner.java:312)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)org.testng.TestNG.runSuitesLocally(TestNG.java:1208)org.testng.TestNG.runSuites(TestNG.java:1112)org.testng.TestNG.run(TestNG.java:1079)org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </failure>
+    </testcase>
+
+
+</testsuite>
